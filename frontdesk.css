@@ -1,0 +1,100 @@
+/* Style the video: 100% width and height to cover the entire window */
+.simplia-front-desk {
+	/* Add some content at the bottom of the video/page */
+	/* Style the button used to pause/play the video */
+	/* controls */
+}
+ .simplia-front-desk #myfdVideo {
+	/* position: fixed;*/
+	 right: 0;
+	 bottom: 0;
+	 min-width: 100%;
+	 min-height: 100%;
+}
+ .simplia-front-desk .content {
+	 /*position: fixed;*/
+	 bottom: 0;
+	 /*background: rgba(0, 0, 0, 0.5);*/
+     background: transparent;
+	 color: #f1f1f1;
+	 width: 100%;
+	 padding: 20px;
+}
+ .simplia-front-desk .myBtn {
+	 width: 200px;
+	 font-size: 18px;
+	 padding: 10px;
+	 border: none;
+	 background: black;
+	 color: #fff;
+	 cursor: pointer;
+}
+ .simplia-front-desk .myBtn:hover {
+	 background: #ddd;
+	 color: black;
+}
+ .simplia-front-desk .controls, .simplia-front-desk .controls li {
+	 padding: 0;
+	 margin: 0;
+}
+ .simplia-front-desk .controls {
+	 list-style-type: none;
+	 background: transparent;
+	 position: fixed;
+	 bottom: 0;
+	 color: #f1f1f1;
+	 width: 100%;
+	 padding: 43px;
+	 float: right;
+	 right: -1301px;
+}
+ .simplia-front-desk .controls li {
+	 float: left;
+	 width: 3%;
+	 margin-left: 0.3%;
+}
+ .simplia-front-desk .controls li:first-child {
+	 margin-left: 0;
+}
+ .simplia-front-desk .controls .progress {
+	 width: 38%;
+	 cursor: pointer;
+}
+ .simplia-front-desk .controls button {
+	 width: 100%;
+	 text-align: center;
+	 overflow: hidden;
+	 white-space: nowrap;
+	 text-overflow: ellipsis;
+}
+ .simplia-front-desk .controls progress {
+	 display: block;
+	 width: 100%;
+	 height: 20px;
+	 height: 1.25rem;
+	 margin-top: 2px;
+	 margin-top: 0.125rem;
+	 border: 1px solid #aaa;
+	 overflow: hidden;
+	 -moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
+	 border-radius: 5px;
+}
+ .simplia-front-desk .controls progress span {
+	 width: 0%;
+	 height: 100%;
+	 display: inline-block;
+	 background-color: #2a84cd;
+}
+ .simplia-front-desk .content {
+	/* position: fixed;*/
+	 bottom: 0;
+	 background: transparent;
+	 color: #f1f1f1;
+	 width: 100%;
+	 padding: 20px;
+}
+ .simplia-front-desk video::-webkit-media-controls-fullscreen-button, .simplia-front-desk video::-webkit-media-controls-play-button, .simplia-front-desk video::-webkit-media-controls-pausebutton {
+	 display: none;
+}
+ 
